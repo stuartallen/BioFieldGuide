@@ -11,7 +11,7 @@ body {
 
 	display: flex;
 	justify-content: space-around;
-	
+	flex-wrap: wrap;
 }
 
 p {
@@ -19,8 +19,15 @@ p {
 	background-color: black;
 	color: blanchedalmond;
 	border-radius: 10px;
-	margin: 0;
 	font-weight: 600;
+	margin: 20px;
+
+	width: fit-content;
+	height: fit-content;
+	
+	display: flex;
+	justify-content: row;
+	align-items: center;
 }
 
 /*	Header stuff	*/
@@ -96,4 +103,10 @@ br {
 	text-decoration: none;	
 	padding: 50px;
 	border-radius: 10px;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	margin: 20px;
 }
