@@ -30,6 +30,22 @@ p {
 	align-items: center;
 }
 
+.writings {
+	padding: 20px;
+	background-color: black;
+	color: blanchedalmond;
+	border-radius: 10px;
+	font-weight: 600;
+	margin: 20px;
+
+	width: fit-content;
+	height: fit-content;
+	
+	display: flex;
+	justify-content: row;
+	align-items: center;
+}
+
 /*	Header stuff	*/
 
 h1 {
@@ -109,4 +125,9 @@ img {
 	width: 300px;
 	height: auto;
 	margin: 20px;
+}
+
+#sketch {
+	width: 1000px;
+	height: auto;
 }
